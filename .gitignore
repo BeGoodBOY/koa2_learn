@@ -1,0 +1,7 @@
+node_modules/
+npm-debug.log
+code/*/node_modules
+code/*/npm-debug.log
+code/*/package-lock.json
+code/*/upload-files/
+code/upload-async/static/image/

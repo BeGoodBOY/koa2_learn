@@ -1,0 +1,25 @@
+{
+  "name": "koa2_learn",
+  "version": "1.0.0",
+  "description": "koa koa2 node express backend",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BeGoodBOY/koa2_learn.git"
+  },
+  "keywords": [
+    "koa",
+    "koa2",
+    "express",
+    "node"
+  ],
+  "author": "libo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BeGoodBOY/koa2_learn/issues"
+  },
+  "homepage": "https://github.com/BeGoodBOY/koa2_learn#readme"
+}

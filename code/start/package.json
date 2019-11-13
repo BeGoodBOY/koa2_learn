@@ -1,0 +1,19 @@
+{
+  "name": "start",
+  "version": "1.0.0",
+  "description": "hello world",
+  "main": "app.js",
+  "keywords": [
+    "koa",
+    "koa2"
+  ],
+  "author": "libo",
+  "license": "ISC",
+  "dependencies": {
+    "koa": "^2.11.0"
+  },
+  "engines": {
+    "node": ">=7.6.0",
+    "npm": ">=3.0.0"
+  }
+}
