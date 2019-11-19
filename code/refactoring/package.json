@@ -1,0 +1,24 @@
+{
+  "name": "refactoring",
+  "version": "1.0.0",
+  "description": "koa node",
+  "main": "app",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "koa",
+    "node"
+  ],
+  "author": "libo",
+  "license": "ISC",
+  "engines": {
+    "node": ">=7.6.0",
+    "npm": ">=3.0.0"
+  },
+  "dependencies": {
+    "koa": "^2.11.0",
+    "koa-bodyparser": "^4.2.1",
+    "koa-router": "^7.4.0"
+  }
+}
