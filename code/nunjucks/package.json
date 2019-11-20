@@ -1,0 +1,25 @@
+{
+  "name": "nunjucks",
+  "version": "1.0.0",
+  "description": "numjucks",
+  "main": "app",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "koa",
+    "nunjucks"
+  ],
+  "author": "libo",
+  "license": "ISC",
+  "dependencies": {
+    "koa": "^2.11.0",
+    "koa-bodyparser": "^4.2.1",
+    "koa-nunjucks-2": "^3.0.2",
+    "koa-router": "^7.4.0"
+  },
+  "engines": {
+    "node": ">=7.6.0",
+    "npm": ">=3.0.0"
+  }
+}
