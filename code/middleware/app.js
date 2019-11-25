@@ -13,7 +13,7 @@ app.use(async (ctx, next) => {
 //x-response-time
 app.use(async (ctx, next) => {
     console.log(2);
-    const start = Date.now();5
+    const start = Date.now();
     await next();
     console.log(4);
     const ms = Date.now() - start;
