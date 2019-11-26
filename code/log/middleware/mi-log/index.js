@@ -1,6 +1,17 @@
 const logger = require('./logger');
-module.exports = () => {
-    return logger();
+module.exports = (options) => {
+    const loggerMiddleware = logger(options);
+    return (ctx, next) => {
+        return loggerMiddleware(ctx, next)
+            .catch(e => {
+                if (ctx.statnextus < 500) {
+                    ctx.status = 500;
+                }
+                ctx.log.error(e.stack);
+                ctx.state.logged = true;
+                ctx.throw(e);
+            });
+    }
 }
 
 

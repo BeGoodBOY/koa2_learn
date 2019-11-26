@@ -4,7 +4,7 @@ const nunjucks = require('koa-nunjucks-2');
 const bodyParser = require('koa-bodyparser');
 const staticFiles = require('koa-static');
 const ip = require('ip');
-const miLog = require('./mi-log/logger');
+const miLog = require('./mi-log');
 
 
 module.exports = (app) => {
