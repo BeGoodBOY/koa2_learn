@@ -11,11 +11,13 @@ const baseInfo = {
     serverIp: '0.0.0.0',//服务器IP
 };
 
-const {env, appLogLevel, dir, serverIp, projectName} = baseInfo;
+module.exports = (options) => {
+
+const realInfo = Object.assign({}, baseInfo, options || {});
+
+const {env, appLogLevel, dir, serverIp, projectName} = realInfo;
 //公用日志信息
 const commonInfo = {projectName, serverIp};
-
-module.exports = () => {
     const contextLogger = {};
     const appenders = {};
 
