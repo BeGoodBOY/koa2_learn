@@ -4,7 +4,7 @@ module.exports = (options) => {
     return (ctx, next) => {
         return loggerMiddleware(ctx, next)
             .catch(e => {
-                if (ctx.statnextus < 500) {
+                if (ctx.status < 500) {
                     ctx.status = 500;
                 }
                 ctx.log.error(e.stack);
