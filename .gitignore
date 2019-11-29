@@ -6,4 +6,4 @@ code/*/package-lock.json
 code/*/upload-files/
 code/upload-async/static/image/
 code/log/logs
-code/log/*.log
+code/**/*.log
